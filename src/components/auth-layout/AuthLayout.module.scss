@@ -1,0 +1,41 @@
+.container {
+  height: 100vh;
+  width: min(100%, 1200px);
+  margin: 0 auto;
+  padding: 20px 100px;
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo{
+      width: 160px;
+      height: 60px;
+      background-image: url('/images/squadhelp_logo.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+  }
+  .login_button {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 7px;
+    color: #fff;
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .container{
+    padding: 50px;
+  }
+}

@@ -1,0 +1,59 @@
+.register_form {
+  width: 100%;
+  max-width: 460px;
+
+  .fields {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px 15px;
+  }
+  button {
+    background-color: #28d2d1;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    border: none;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .terms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    color: #fff;
+    font-size: 12px;
+  }
+
+  .terms input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .checkboxMark {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #fff;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .terms input:checked + .checkboxMark::after {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background-color: #fff;
+  }
+}
+@media (min-width: 768px) {
+  .register_form {
+    .fields {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.login_page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+}
+.login_page h1 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.login_page form {
+  margin: 50px 0 0 0;
+}
+
+/*# sourceMappingURL=LoginPage.module.css.map */

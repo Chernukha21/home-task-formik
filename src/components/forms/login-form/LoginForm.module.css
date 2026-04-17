@@ -1,0 +1,23 @@
+.login_form {
+  width: 100%;
+  max-width: 460px;
+}
+.login_form label {
+  display: block;
+  margin-bottom: 35px;
+}
+.login_form button {
+  background-color: #28d2d1;
+  width: 100%;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+  border: none;
+}
+.login_form button:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=LoginForm.module.css.map */

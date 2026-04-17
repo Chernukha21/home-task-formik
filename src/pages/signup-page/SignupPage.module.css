@@ -1,0 +1,27 @@
+.signup_page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.signup_page h1 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+.signup_page h4 {
+  max-width: 360px;
+  margin: 0 auto 32px;
+  color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/*# sourceMappingURL=SignupPage.module.css.map */

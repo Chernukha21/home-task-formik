@@ -1,0 +1,44 @@
+.container {
+  height: 100vh;
+  width: min(100%, 1200px);
+  margin: 0 auto;
+  padding: 20px 100px;
+}
+.container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container header .logo {
+  width: 160px;
+  height: 60px;
+  background-image: url("/images/squadhelp_logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.container .login_button {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 7px;
+  color: #fff;
+}
+.container .login_button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.container main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 50px;
+  }
+}
+
+/*# sourceMappingURL=AuthLayout.module.css.map */
