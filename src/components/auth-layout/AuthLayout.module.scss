@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    .logo{
+    .logo {
       width: 160px;
       height: 60px;
       background-image: url('/images/squadhelp_logo.png');
@@ -35,7 +35,7 @@
   }
 }
 @media (max-width: 768px) {
-  .container{
+  .container {
     padding: 50px;
   }
 }

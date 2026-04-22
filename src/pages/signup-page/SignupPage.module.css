@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
 }
 .signup_page h1 {
   color: #fff;
@@ -14,7 +14,7 @@
   letter-spacing: 1px;
   margin-bottom: 12px;
 }
-.signup_page h4 {
+.signup_page p {
   max-width: 360px;
   margin: 0 auto 32px;
   color: rgba(255, 255, 255, 0.85);
